@@ -100,20 +100,3 @@ footer {
     background-color: hsl(203, 87%, 64%);
     transform: scale(1.09);
 }
-
-/* button {
-    background-color: hsl(0, 0%, 20%);
-    border: none;
-    border-radius: 6px;
-    color: hsl(0, 0%, 100%);
-    width: 100%;
-    padding: 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.5s ease, transform 0.5s ease;
-}
-
-button:hover {
-    background-color: hsl(203, 87%, 64%);
-    transform: scale(1.09);
-} */
