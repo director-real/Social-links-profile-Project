@@ -80,7 +80,28 @@ footer {
     font-size: 12px;
 }
 
-button {
+.btn-links {
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.btn-links:hover {
+    background-color: hsl(203, 87%, 64%);
+    transform: scale(1.09);
+}
+
+/* button {
     background-color: hsl(0, 0%, 20%);
     border: none;
     border-radius: 6px;
@@ -95,4 +116,4 @@ button {
 button:hover {
     background-color: hsl(203, 87%, 64%);
     transform: scale(1.09);
-}
+} */
